@@ -200,3 +200,303 @@ body {
     text-decoration: underline;
   }
   
+  body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .titulo  {
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    margin-top: 20px;
+    
+  }
+  
+  .bordes {
+    width: 60%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    margin: 20px auto;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    background-color:white;
+    border: 2px solid #004080;
+    
+  }
+  
+  .bordes thead {
+    background-color: #004080(51 75% 5%);
+    color: #004080;
+    
+  }
+  
+  .bordes th {
+    padding: 10px 10px;
+    border: 1px solid #004080;
+    text-align: center;
+  }
+
+  .bordes td {
+    padding: 10px 10px;
+    border: 1px solid #004080 ;
+    text-align: left;
+  }
+  
+  .bordes tr:nth-child(even) {
+    background-color: #004080;
+    
+  }
+  
+  .bordes tr:hover {
+    background-color: white;
+  
+  }
+
+  .texto{
+    font-family:Arial, Helvetica, sans-serif;
+
+  }
+
+  .whatsapp-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: breathe 2s ease-in-out infinite;
+    
+  }
+  
+  .whatsapp-btn img {
+    width: 50px;
+    margin-right: 10px;
+  }
+
+   .titulo_form {
+        text-align: center;
+        color: #2c3e50;
+        margin-bottom: 30px;
+        
+    }
+
+    form {
+        background-color: #ffffff;
+        padding: 20px 30px;
+        border-radius: 10px;
+        max-width: 500px;
+        margin: 20px auto;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+        display: block;
+        margin-top: 15px;
+        margin-bottom: 5px;
+        color: #34495e;
+        font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="date"],
+    input[type="tel"],
+    input[type="email"],
+    input[type="file"],
+    select {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #004080;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    input[type="radio"],
+    input[type="checkbox"] {
+        margin-right: 8px;
+    }
+
+    input[type="submit"] {
+        background-color: #3498db;
+        color: white;
+        padding: 10px 15px;
+        margin-top: 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #2980b9;
+    }
+
+    h2 {
+        text-align: center;
+        color: #2c3e50;
+    }
+
+    p {
+        text-align: center;
+        color: #555;
+    }
+
+    a {
+        color: #004080;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    .contenedor{
+   width: 100;
+   height: 100;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 150px;
+   
+}
+
+.form-1{
+    width: 100;
+    max-width: 450px;
+    background-color:#042c76;
+    padding: 50px 60px 70px;
+    text-align: center;
+    border-radius: 30px;
+}
+.form-1 h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.form-3{
+    background-color:#042c76;
+    margin: 15px 0;
+    border-radius: 2px;
+    align-items: center;
+    display:inline-block;
+    transition: max-height 05s;
+    overflow: hidden;
+}
+
+.form-1 h1::after{
+    content: " ";
+    width: 30px;
+    height: 4px;
+    border-radius: 3px;
+    background: #727272;
+    position: absolute;
+    bottom: -12px;
+    left: 50px;
+    transform: translateX(-50%);
+    margin-left: 120px;
+    
+}
+
+.titulo_form{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 40px;
+}
+
+.titulo_form {
+    text-align: center;
+    color: black;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+input[type="text"],
+input[type="date"],
+input[type="tel"],
+input[type="email"],
+input[type="file"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid hsla(0, 0%, 49%, 0.877);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+input[type="submit"] {
+    background-color: hsl(203, 94%, 12%);
+    color: white;
+    padding: 10px 15px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+p {
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+.barra-superior {
+    padding: 10px 20px;
+    text-align: right;
+}
+
+.barra-superior a {
+    color: #004080;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.barra-superior a:hover {
+    text-decoration: underline;
+}
+
+
+
+    
+  
+  
