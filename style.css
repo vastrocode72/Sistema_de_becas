@@ -162,8 +162,30 @@ nav ul li a {
     align-items: center;
     padding-right: 30px;
    
+}
 
+.about__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
 
+.about__text-content {
+  flex: 1;
+  text-align: left;
+}
+
+.about__image {
+  flex: 1;
+  text-align: center;
+}
+
+.about__image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
 }
 
 
