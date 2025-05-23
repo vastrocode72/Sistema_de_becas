@@ -637,3 +637,21 @@ p {
       text-align: justify;
     }
 
+.boton {
+      background-color: #3498db;   
+      color: white;               
+      padding: 12px 24px;        
+      border: none;                
+      border-radius: 8px;          
+      font-size: 16px;             
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;             
+      width: 350px;
+      height: 100px;
+      display: flex;
+    }
+
+    .boton:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
