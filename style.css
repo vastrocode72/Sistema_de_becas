@@ -22,17 +22,16 @@ h2{
       justify-content: center;
       font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
       font-size: 100px;
-
 }
 
 .card {
     width: 250px;
     padding: 20px;
     margin: 20px;
-    background-color: rgb(37, 198, 219);
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+
 }
 
 .card:hover {
@@ -48,11 +47,16 @@ h2{
 .contenido h1 {
     font-size: 18px;
     margin-top: 15px;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
 }
 
 .contenido p {
     font-size: 14px;
     margin: 5px 0;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 .contenedor-tarjetas {
@@ -61,7 +65,7 @@ h2{
     flex-wrap: wrap; /* Para que se acomoden bien en pantallas pequeñas */
     gap: 20px; /* Espacio entre tarjetas */
     padding: 20px;
-    background-color: #2c3e50;
+    margin-top: 20px;
 }
 
 
@@ -87,15 +91,12 @@ nav ul{
     margin: 0;
     align-content: center;
     background-color: white;
+    
 }
 
-nav ul li{
-    margin-right: 20px;
-    color: black;
-}
 
 nav ul li a {
-    text-decoration: none black;
+    text-decoration: none;
     padding: 10px 15px;
     display: block;  
   }
@@ -116,7 +117,6 @@ nav ul li a {
     padding: 0 var(--container-padding);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #7f8c8d;
     
 }
 
@@ -143,24 +143,27 @@ nav ul li a {
 .footer__heading {
     color: var(--text-white);
     margin-bottom: var(--spacing-md);
-    color: white;
-    
-    
+    color: white;  
 }
+
 
 .footer__nav{
     color: white;
     list-style: none;
     padding: 0;
     text-align: center;
-
+    text-decoration: none;
+    
 }
 
 .footer__nav img{
     height: 30px;
     right: 30px;
     align-items: center;
-    padding-right: 30px;
+    padding-right: 5px;
+    margin-top: 5px;
+    
+   
    
 }
 
@@ -194,9 +197,6 @@ nav ul li a {
     color: var(--text-light);
 }
 
-.footer__nav a:hover {
-    color: var(--text-white);
-}
 
 .footer__contact p {
     color: var(--text-light);
@@ -244,11 +244,10 @@ body {
     color: white;
     padding: 1.5rem;
     text-align: center;
+    
   }
+
   
-  header h1 {
-    margin: 0;
-  }
   
   .container {
     max-width: 960px;
@@ -379,6 +378,12 @@ body {
     margin-right: 10px;
   }
 
+  .whatsapp-btn img:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+    }
+   
+
    .titulo_form {
         text-align: center;
         color: #2c3e50;
@@ -505,12 +510,7 @@ body {
     
 }
 
-.titulo_form{
-    margin-top: 30px;
-    text-align: center;
-    font-size: 30px;
-    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
-}
+
 
 body {
     font-family: Arial, sans-serif;
@@ -523,7 +523,10 @@ body {
     text-align: center;
     color: black;
     margin-bottom: 30px;
-    margin-top: 20px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
 }
 
 label {
@@ -602,8 +605,35 @@ p {
     
 }
 
+.carousel-inner img{
+   margin-top:30px;
+   height: 500px;
+   width: 250px;
+}
 
+.PQR{
+    color: white;
+}
+  
+.texto{
+    display: flex;
+      align-items: center;
+      max-width: 800px;
+      margin: 20px auto;
+      gap: 20px;
+     box-shadow: 0 15px 15px rgba(0, 0, 0, 0.1);
+      
+}
 
-    
-  
-  
+.texto img {
+      width: 200px;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .texto p {
+      font-size: 16px;
+      line-height: 1.5;
+      text-align: justify;
+    }
+
