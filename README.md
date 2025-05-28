@@ -1,6 +1,6 @@
 # 🎓 Sistema de Gestión de Becas
 
-Este proyecto es un **Sistema de Gestión de Becas** diseñado para facilitar y centralizar el proceso de inscripción, consulta y seguimiento de becas educativas. Está orientado tanto a estudiantes como a administradores, ofreciendo una interfaz moderna, interactiva y accesible desde cualquier dispositivo.
+El proyecto **Sistema de Gestión de Becas**  o **SGB HUB** está diseñado para facilitar y centralizar el proceso de inscripción, consulta y seguimiento de becas educativas. Está orientado tanto a estudiantes como a administradores, ofreciendo una interfaz moderna, interactiva y accesible desde cualquier dispositivo.
 
 ## 🚀 Funcionalidades Principales
 
