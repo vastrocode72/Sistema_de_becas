@@ -977,3 +977,18 @@ p {
     padding: 20px;
     margin-top: 20px;
 }
+
+.welcome-container {
+    background-color: #bad6ee; 
+    color: #0c0c0c; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    padding: 20px;     
+    margin: 20px auto; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    max-width: 600px; 
+    text-align: center; 
+    line-height: 1.6; 
+    font-size: large;
+  }
+
